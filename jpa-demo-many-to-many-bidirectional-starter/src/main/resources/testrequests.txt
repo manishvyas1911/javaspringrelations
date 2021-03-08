@@ -1,0 +1,50 @@
+Create USer with Role 
+{
+  "firstName": "Hritik",
+  "lastName": "Joshi",
+  "mobile": "9999999999",
+  "email": "hi@mail.com",
+  "roles": [
+    {
+      "name": "ADMIN",
+      "description": "Adminstrator"
+    },
+    {
+      "name": "USER",
+      "description": "user"
+    }
+  ]
+}
+
+
+
+Create Roles with user
+
+{
+  "name": "ADMIN",
+  "description": "Administrator",
+  "users": [
+    {
+      "firstName": "Manish",
+      "lastName": "Vyas",
+      "mobile": "9876435234",
+      "email": "manish@mail.com"
+    },
+    {
+      "firstName": "Bharti",
+      "lastName": "Joshi",
+      "mobile": "9876555234",
+      "email": "bharti@mail.com"
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
